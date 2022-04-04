@@ -3,7 +3,7 @@ name: Run App
 on:
   push:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '59 14 * * *'
 
 jobs:
   run-app:
